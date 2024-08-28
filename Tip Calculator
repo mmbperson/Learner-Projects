@@ -1,0 +1,6 @@
+total=input("What's your bill total?")
+percentage=input("What tip percentage would you like to give?")
+tip=float(total) * int(percentage)/100
+split=input("How many people are splitting the bill?")
+per=round((float(total) + float(tip)) / int(split), 2)
+print(f"Each person should pay: ${per}.")
