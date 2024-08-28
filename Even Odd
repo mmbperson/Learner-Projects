@@ -1,6 +1,7 @@
-number = int(input())
+print("Howdy!")
+number = int(input("Which number are we testing?\n"))
 
-if number % 2 == 0
-  print("This is an even number.)
+if number % 2 == 0:
+  print("This is an even number.")
 else:
   print("This is an odd number.")
