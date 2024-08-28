@@ -1,0 +1,7 @@
+age = input()
+
+age = int(age)
+death_years = (90 - age)
+weeks = 52
+death_weeks = (int(death_years*weeks))
+print(f"You have {death_weeks} weeks left.")
