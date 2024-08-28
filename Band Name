@@ -1,0 +1,4 @@
+print("Well, howdy!")
+city = input("What city did you grow up in?\n")
+pet = input("Cool! What was a pets name?\n")
+print("Your band name could totally be " + city + pet + "!")
