@@ -8,3 +8,5 @@ elif year % 400 == 0:
     print("Leap year")
 else:
   print("Not leap year")
+
+# Here, I learned that with elif, the program doesn't always run to the end. So, there can be a technical accuracy if it were to be accurate to a point, and so skip the last check. But what if that last check was the difference between the input being true or false? You've essentially created a "bind spot".
