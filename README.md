@@ -12,6 +12,7 @@
 - [Love Calculator](https://github.com/mmbperson/Learner-Projects/blob/main/Love%20Calculator): I took everything I had learned so far about input variables, types, strings, if/elif/else, and added count() to that to create this "calculator" that adds up the letters in a name to determine your match status.
 
 ## [CodeCademy: Full-Sack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
+### HTML
 - [Brown Bear (Practice)](https://github.com/mmbperson/Learner-Projects/blob/main/Brown%20Bear%20(Practice))
 - [Brown Bear](https://github.com/mmbperson/Learner-Projects/blob/main/Brown%20Bear)
 - [Fashion Blog](https://github.com/mmbperson/Learner-Projects/blob/main/Fashion%20Blog)
