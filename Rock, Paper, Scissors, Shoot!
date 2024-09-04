@@ -1,0 +1,72 @@
+import random
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+shoot = input("rock, paper, scissors? ")
+
+if shoot == "rock":
+    print(rock)
+elif shoot == "Rock":
+    print(rock)
+elif shoot == "paper":
+    print(paper)
+elif shoot == "Paper":
+    print(paper)
+elif shoot == "scissors":
+    print(scissors)
+elif shoot == "Scissors":
+    print(scissors)
+else:
+    print('Try again: "rock", "paper", or "scissors".')
+
+game = [rock, paper, scissors]
+
+match = random.randint(0,2)
+
+print(game[match])
+
+set = ({shoot}, {match})
+
+if set == ({'rock'}, {0}):
+    print("Match! Try Again.")
+if set == ({'rock'}, {1}):
+    print("You lose.")
+if set == ({'rock'}, {2}):
+    print("You win!")
+if set == ({'paper'}, {0}):
+    print("You win!")
+if set == ({'paper'}, {1}):
+    print("Match! Try Again.")
+if set == ({'paper'}, {2}):
+    print("You lose.")
+if set == ({'scissors'}, {0}):
+    print("You lose.")
+if set == ({'scissors'}, {1}):
+    print("You win!")
+if set == ({'scissors'}, {2}):
+    print("Match! Try Again.")
