@@ -29,17 +29,13 @@ scissors = '''
 
 shoot = input("rock, paper, scissors? ")
 
+lshoot = shoot.lower()
+
 if shoot == "rock":
-    print(rock)
-elif shoot == "Rock":
     print(rock)
 elif shoot == "paper":
     print(paper)
-elif shoot == "Paper":
-    print(paper)
 elif shoot == "scissors":
-    print(scissors)
-elif shoot == "Scissors":
     print(scissors)
 else:
     print('Try again: "rock", "paper", or "scissors".')
@@ -48,9 +44,16 @@ game = [rock, paper, scissors]
 
 match = random.randint(0,2)
 
-print(game[match])
+if shoot == rock:
+    print(game[match])
+elif shoot == paper:
+    print(game[match])
+elif shoot == scissors:
+    print(game[match])
+else:
+    print()
 
-set = ({shoot}, {match})
+set = ({lshoot}, {match})
 
 if set == ({'rock'}, {0}):
     print("Match! Try Again.")
