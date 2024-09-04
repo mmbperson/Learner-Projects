@@ -11,6 +11,7 @@
 - [Leap Year](https://github.com/mmbperson/Learner-Projects/blob/main/Leap%20Year%20(IfElse)): This one was honestly a little tricky! [I realized that with the right set of limited input the program could easily *seem* accurate without being accurate.](https://github.com/mmbperson/Learner-Projects/blob/main/Leap%20Year%20(Elif)) I had to run several tests to ensure that it hit all the parameters of "divisible by 4, **except** every year that is evenly divisible by 100 with no remainder, **unless** the year is also divisble by 100 with no remainder." This project honestly made me excited to look forward to future tester work!
 - [Love Calculator](https://github.com/mmbperson/Learner-Projects/blob/main/Love%20Calculator): I took everything I had learned so far about input variables, types, strings, if/elif/else, and added count() to that to create this "calculator" that adds up the letters in a name to determine your match status.
 - [Head Tails](https://github.com/mmbperson/Learner-Projects/blob/main/Head%20Tails): My first implementation of inputing a module (random) and applying random.randint().
+- [Pay Picker](https://github.com/mmbperson/Learner-Projects/blob/main/Pay%20Picker): 
 
 ## [CodeCademy: Full-Sack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
 ### HTML
