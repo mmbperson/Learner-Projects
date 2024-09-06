@@ -12,7 +12,11 @@
 - [Love Calculator](https://github.com/mmbperson/Learner-Projects/blob/main/Love%20Calculator): I took everything I had learned so far about input variables, types, strings, if/elif/else, and added count() to that to create this "calculator" that adds up the letters in a name to determine your match status.
 - [Head Tails](https://github.com/mmbperson/Learner-Projects/blob/main/Head%20Tails): My first implementation of inputing a module (random) and applying random.randint().
 - [Pay Picker](https://github.com/mmbperson/Learner-Projects/blob/main/Pay%20Picker):
-- [Rock, Paper, Scissors, Shoot!](https://github.com/mmbperson/Learner-Projects/blob/main/Rock%2C%20Paper%2C%20Scissors%2C%20Shoot!): 
+- [Rock, Paper, Scissors, Shoot!](https://github.com/mmbperson/Learner-Projects/blob/main/Rock%2C%20Paper%2C%20Scissors%2C%20Shoot!):
+- [Max](https://github.com/mmbperson/Learner-Projects/blob/main/Max):
+- [The Gauss Challenge](https://github.com/mmbperson/Learner-Projects/blob/main/The%20Gauss%20Challenge):
+- [FizzBuzz](https://github.com/mmbperson/Learner-Projects/blob/main/FizzBuzz):
+- [Password Generator](https://github.com/mmbperson/Learner-Projects/blob/main/Password%20Generator):
 
 ## [CodeCademy: Full-Sack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
 ### HTML
