@@ -25,5 +25,4 @@
 - [Fashion Blog](https://github.com/mmbperson/Learner-Projects/blob/main/Fashion%20Blog)
 - [Repaint](https://github.com/mmbperson/Learner-Projects/blob/main/Repaint)
 
-## Wiki  
-[Learner Projects Wiki](https://github.com/mmbperson/Learner-Projects/wiki)
+## [Learner Projects Wiki](https://github.com/mmbperson/Learner-Projects/wiki)
