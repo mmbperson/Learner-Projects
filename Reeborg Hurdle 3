@@ -1,0 +1,32 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while at_goal() != True:
+    if wall_in_front() == True:
+        jump()
+    elif front_is_clear() == True:
+        move()
+    else:
+        at_goal()
+
+#notes: wouldnt function without an else.
+
+#Teachers solution:
+#while at_goal() != True:
+#    if wall_in_front() == True:
+#        jump()
+#    else:
+#        move()
+
+#notes: this program is helping me to understand how more efficient code makes things run more efficiently. its less to process.
