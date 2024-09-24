@@ -1,0 +1,31 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def pivot():
+    move()
+    turn_right()
+
+while at_goal() != True:
+    if right_is_clear() != True:
+        if front_is_clear() != True:
+            turn_left()
+        else:
+            move()
+    elif right_is_clear() == True:
+        if is_facing_north() != True:
+            pivot()
+        else:
+            turn_right()
+            pivot()
+            move()
+    else:
+        at_goal()
+
+
+#notes:
+#if front_is_clear == True
+#and
+#if front_is_clear:
+#are registered differently
