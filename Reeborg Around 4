@@ -1,0 +1,28 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    while right_is_clear() != True:
+        while wall_in_front():
+            turn_left()
+        else:
+            move()
+            
+    while right_is_clear():
+            turn_right()
+            move()
+
+while front_is_clear:
+   jump()
+else:
+   move()
+
+# notes:
+# i learned that just because a function has a certain lable,
+# that does not always mean that that function works the way the lable sais it does.
+# My greatest issue with Around 4 & Hurdle 4 is that front_is_clear(), right_is_clear(), wall_in_front(), and wall_on_right()
+# didnt work the way that my mind logically believed they should operate as.
+# There right could be obstructed, but it would still read as if it wasn't, and so.
+# BUT this did give me a lot to test for and explore around.
