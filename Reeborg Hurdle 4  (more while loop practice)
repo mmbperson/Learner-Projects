@@ -1,0 +1,62 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    while right_is_clear():
+        if is_facing_north():
+            turn_right()
+            move()
+            turn_right()
+        else:
+            move()
+            
+    while right_is_clear() != True:
+        while wall_in_front():
+            turn_left()
+        else:
+            move()
+
+while at_goal() != True:
+    if front_is_clear:
+       jump()
+    else:
+       move()
+
+#notes:
+#even when i reach the goal, it doesn't register as reaching the goal
+#so, i'm starting to think that a skill with while loops is hacing them cycle back through the correct while loop that will check if the stop variable is true or not
+
+#This was the TEACHERS SOLUTION
+
+#def turn_right():
+#    turn_left()
+#    turn_left()
+#    turn_left()
+#    
+#def jump():
+#    turn_left()
+#    while wall_on_right():
+#        move()
+#    turn_right()
+#    move()
+#    turn_right()
+#    while front_is_clear():
+#        move()
+#    turn_left()
+#            
+#while at_goal() != True:
+#    if wall_in_front:
+#       jump()
+#    else:
+#       move()
+#
+#
+#So, a few things....
+#I honestly dont understand why i have to get to the goal, AND spin in a circle on the goal in order to "be at the goal" but that is essentially what happened for this map. it seems inefficient, but eh..
+#
+#What I learned from this, tho, is that i can be a loot more precise with how i use while loops.
+#I never thought it could be something as simple as *while this is true do only this one thing, and if not true skip to the next step*. nifty!
+#
+#I can always appreciate that sometimes the lesson is not getting it correct.
